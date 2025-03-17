@@ -1,0 +1,44 @@
+body{
+	  margin: 0;
+    height: 100vh;
+    display: flex; /* Fixed typo: 'diplay' to 'display' */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a6ffa6;
+    background-image: url('image/mi.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif; /* Fixed typo: 'Arail' to 'Arial' */
+    color: #333;
+}
+.container{
+	width:600px;
+	padding:20px;
+	border-radius:10px;
+	box-shadow:0 0 10px rgba(0,0,1,0.5);
+	background-color:#dfdfdf;
+	text-align:center;
+}
+h1{
+	font-weight:bold;
+	color:#007BFF;
+	
+}
+p{
+	margin:20px;
+	line-height:1.6;
+}
+.links a{
+	margin:0 10px;
+	text-decoration:none;
+	color:#007BFF;
+	font-weight:bold;
+	transition :color 0.3s ease-in-out;
+}
+.links a:hover{
+	color:#0056b3;
+	font-size:20px;
+	text-transform:uppercase;
+}
